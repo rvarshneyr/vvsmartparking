@@ -1,0 +1,20 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-amplifyf2f80c9a86c34-staging-41848-authRole",
+      "UnauthRoleArn": "arn:aws:iam::320297557346:role/amplify-amplifyf2f80c9a86c34-staging-41848-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::320297557346:role/amplify-amplifyf2f80c9a86c34-staging-41848-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-amplifyf2f80c9a86c34-staging-41848-deployment",
+      "UnauthRoleName": "amplify-amplifyf2f80c9a86c34-staging-41848-unauthRole",
+      "StackName": "amplify-amplifyf2f80c9a86c34-staging-41848",
+      "StackId": "arn:aws:cloudformation:us-east-2:320297557346:stack/amplify-amplifyf2f80c9a86c34-staging-41848/9acec830-dfcf-11ec-8937-0ad293fc0334",
+      "AmplifyAppId": "d3eskqx61t6l0v"
+    },
+    "categories": {
+      "auth": {
+        "vvsmartparkinga97c2db5": {}
+      }
+    }
+  }
+}
