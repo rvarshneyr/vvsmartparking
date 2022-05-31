@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "paths": {
+    "/queryparking": {
+      "name": "/queryparking",
+      "lambdaFunction": "queryParkings",
+      "permissions": {
+        "setting": "private",
+        "auth": [
+          "create",
+          "read",
+          "update",
+          "delete"
+        ]
+      }
+    }
+  }
+}
