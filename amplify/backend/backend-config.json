@@ -30,6 +30,11 @@
       "build": true,
       "providerPlugin": "awscloudformation",
       "service": "Lambda"
+    },
+    "apiparkingquery": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
     }
   },
   "api": {
@@ -40,6 +45,20 @@
         {
           "category": "function",
           "resourceName": "queryParkings",
+          "attributes": [
+            "Name",
+            "Arn"
+          ]
+        }
+      ]
+    },
+    "apiparkingquery": {
+      "service": "API Gateway",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [
+        {
+          "category": "function",
+          "resourceName": "apiparkingquery",
           "attributes": [
             "Name",
             "Arn"
