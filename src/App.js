@@ -8,7 +8,8 @@ import {
   View,
   Card,
 } from "@aws-amplify/ui-react";
-import {API, Auth} from 'aws-amplify'
+import Amplify, { API,Auth } from 'aws-amplify';
+
 
 import awsconfig from './aws-exports';
 
