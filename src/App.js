@@ -16,8 +16,16 @@ function App({ signOut }) {
     const user = await Auth.currentAuthenticatedUser()
     const token = user.signInUserSession.idToken.jwtToken
 
-    const data = await API.get ('', '/hello', )
+    const requestinfo = {
+      Headers: {
+        Authorization: token
+      }
+    }
+    const data = await API.get ('apiparkingquery', '/queryparkings', requestinfo)
     console.log(data)
+    console.log(token)
+
+    
 
   }
   return (
