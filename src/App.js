@@ -26,9 +26,10 @@ function App({ signOut }) {
         Authorization: token
       }
     }
-    const data = await API.get ('apiparkingquery', '/queryparkings', requestinfo)
     console.log(data)
     console.log(token)
+    const data = await API.get ('apiparkingquery', '/queryparkings', requestinfo)
+   
 
     
 
