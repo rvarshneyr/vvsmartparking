@@ -16,6 +16,7 @@ import awsconfig from './aws-exports';
 Amplify.configure(awsconfig);
 API.configure(awsconfig);
 
+
 function App({ signOut }) {
   async function callAPi () {
     const user = await Auth.currentAuthenticatedUser()
@@ -29,7 +30,7 @@ function App({ signOut }) {
     console.log(data)
     console.log(token)
     const data = await API.get ('apiparkingquery', '/queryparkings', requestinfo)
-   
+   console.log(data);
 
     
 
